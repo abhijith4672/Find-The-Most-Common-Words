@@ -14,6 +14,7 @@ function countWords() {
     text=text.toLowerCase();
   // The wordArray array will contains a key value pair for words and their occurences in the text
   const wordArray = text.split(" ");
+  console.log(wordArray);
 
   // This loop goes through the wordArray and creates the key value pair objects
   const wordCount = {};
